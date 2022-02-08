@@ -57,12 +57,12 @@ int main(){
     int q;
     cout<<"Question 1 or 2 ?"<<endl;
     cin>>q;
-    system ("clear");
+    system ("CLS");
     if(q==1){
         int arrLength,checkNum;
         cout<<"please enter array size:"<<endl;
         cin>>arrLength;
-        system ("clear");
+        system ("CLS");
         int arr[arrLength];
         cout<<"enter "<<arrLength<<" integers:"<<endl;
         for(int i=0;i<arrLength;i++){
@@ -72,7 +72,7 @@ int main(){
 
         cout<<"enter the integer to search for:"<<endl;
         cin>>checkNum;
-        system("clear");
+        system("CLS");
         doIt1(arr,arrLength,checkNum);
         cout<<endl;
     }else{
@@ -81,12 +81,12 @@ int main(){
         for(int i=0;i<3;i++){
             x=0;
             for(int j=0;j<3;j++){
-                system ("clear");
+                system ("CLS");
                 printMat(arr,x,y);
                 cin>>arr[i][j];
                 x++;
                 if(i==2 && j==2){
-                    system ("clear");
+                    system ("CLS");
                     printMat(arr,x,y);
                 }
             }
